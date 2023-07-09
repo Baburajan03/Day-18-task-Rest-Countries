@@ -1,0 +1,45 @@
+
+.styles{
+    margin: 3rem;
+    width:auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: block;
+    
+}
+.card-img-top{
+    height: 10rem;
+}
+.card-title{
+    background-color: black;
+    color:white;
+    height:3rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 0.5rem ;
+}
+.card{
+    background-color: rgb(211, 211, 74);
+    height:25rem;
+}
+.bg{
+    background-color: rgb(223, 96, 96);
+}
+body{
+    background-color: rgb(223, 96, 96);
+}
+.btn{
+    background-color: rgb(211, 211, 74);
+    color:black;
+    border-color: black;
+}
+.adjust{
+    height:auto
+}
+.temp{
+    color:white
+}
