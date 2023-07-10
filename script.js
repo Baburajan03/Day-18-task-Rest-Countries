@@ -14,19 +14,10 @@ async function getWeather(latlng){
         let res = await fetch (`https://api.openweathermap.org/data/2.5/weather?lat=${latlng[0]}&lon=${latlng[1]}&appid=226674a0868709d660446ede82e2776c`)
         let data = await res.json()
         return data.main.temp - 273.15
-            // let data = await response.json()
-            // let result = data.main.temp
-            // let temp = result - 273.15
-            // let final_temp = temp.toFixed(0)
-            // // console.log(final_temp)
-
-            // return final_temp
     } catch (error) {
         console.log(error)
     }
 }
-// getWeather(11.01,76.95)
-
 async function mycountries(){
     let countries = await fetchdata()
     let container = document.createElement('div')
